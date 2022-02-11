@@ -26,4 +26,4 @@ I personally use VSCode, and many of the tutorials here will assume it, but the 
 
 ### General Knowledge
 
-See the `general` folder for some documents for general knowledge before starting the other tutorials in this repo.
+See the `general` folder [here](./general/README.md) for some documents for general knowledge before starting the other tutorials in this repo.
