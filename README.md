@@ -1,10 +1,10 @@
 # BBMP-Tutorials
 
-Programming tutorials for Building Bridges students
+Programming tutorials for Building Bridges students at Notre Dame.
 
 This is a repo meant to teach the basics of programming! You'll find folders here for teaching web development, backend development, mobile development, and some machine learning.
 
-These tutorials are not meant to be comprehensive. It will teach you the basics of how to get started with various kinds of development, but its primary focus is on implementation, not things like algorithms/data structure design or heavy math. Use these tutorials to get you started.
+These tutorials are not meant to be comprehensive. It will teach you the basics of how to get started with various kinds of development, but its primary focus is on implementation, not things like algorithms/data structure design or heavy math. Use these tutorials to get you started in your path learning to become a programmer/software engineer.
 
 ## Basic Setup
 
