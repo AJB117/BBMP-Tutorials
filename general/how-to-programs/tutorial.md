@@ -1,4 +1,4 @@
-# Essentials of programs and computers
+# Essentials - Git and the Shell
 
 ## What's a program?
 
@@ -20,9 +20,13 @@ The basic idea of Git is this: there are things called **branches** which are es
 
 For example, maybe I'm writing a todo list app, and Alice wants to add a search bar to our app. She would make a new branch apart from main on her own feature branch. Once the search bar is finished, she makes a pull request. Someone else approves this request, and the app now has a search bar.
 
+Note other people can work on Alice's branch as well. However, they would not see any of the changes Alice makes until she **commits** and **pushes** them to the cloud. Similarly, they could only get Alice's changes on her branch by **pulling**.
+
 #### Commits
 
-#### Uploading code
+A commit is a checkpoint in a branch's edit history. 
+
+#### Pushing/Pulling
 
 Note that there is a difference between Git and Github: Git is the program that does all of these magical version control tasks, and Github is just a website built by Microsoft to facilitate the Git workflow. If you wanted to, you could totally make your own git server and set of git tools. If you don't like Github, you can also use services like [Gitlab](https://about.gitlab.com/) or [BitBucket](https://bitbucket.org/product) as well.
 
