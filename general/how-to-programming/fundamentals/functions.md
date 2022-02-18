@@ -48,7 +48,7 @@ To declare a function in JavaScript, use the scheme `function <function name>(<a
 ### Dart
 
 ```dart
-int fn(int a, int b) {             // declaration
+int fn(int a, int b) {         // declaration
     return a + b;
 }
 
@@ -62,7 +62,7 @@ Declaring functions is more tricky in Dart. Since functions must have a type, th
 
 ## Scope
 
-**Scope** describes the variables and data that a function or code block is allowed to manipulate. Functions have their own separate scope from all other code blocks, functions, and programs. This means variables defined in the argument list of a function and in a function body are totally independent of the variables used anywhere else. Using JavaScript as an example,
+**Scope** refers to the variables and data that a function or code block is allowed to manipulate. Functions have their own separate scope from all other code blocks, functions, and programs. This means variables defined in the argument list of a function and in a function body are totally independent of the variables used anywhere else. Using JavaScript as an example,
 
 ```js
 function multiply(a, b) {
@@ -81,6 +81,29 @@ console.log(c);
 ```
 
 `multiplyOutput` is 54, but `c` is 12. This is because the variables `a, b, c` in `multiply` are in a different scope from the rest of the program. Keep this in mind.
+
+## Tips
+
+As programs are just essentially just compositions of functions, it pays to be organized while programming. This means splitting up your code into modular functions with single responsibilities. For example, let's say you're writing a program to open a file, write something to it, and then do some calculations with its contents. Instead of throwing all of this functionality into a single function, try to break it up into smaller functions with dedicated responsibilities.
+
+I mentioned earlier than a function need not return anything. We often call these functions **void** functions. Often, such functions have a sort of **[side-effect](https://en.wikipedia.org/wiki/Side_effect_(computer_science))** instead of returning a specific value. For instance, in [C](https://kremlin.cc/k&r.pdf), the function `scanf` (see the [man page](https://man7.org/linux/man-pages/man3/scanf.3.html)) accepts 2 arguments: a format string and a variable. `scanf` will accept input from the keyboard according to the format string and put whatever the user types into the variable, but it does not return anything. Another common use for void functions is for issuing I/O (input, output) requests, say for pushing data over the network or to disk.
+
+Be careful not to call a void function expecting something to be returned. In JavaScript,
+
+```js
+function foo() {
+    return;
+}
+const a = foo();
+console.log(a);
+```
+
+This program will log `undefined`, and you'll probably see bad behavior using the variable `a` in anything else.
+
+## Exercises
+
+1. Write a function that converts a temperature in Fahrenheit into Celsius.
+2. Write a calculator that takes 2 numbers from the keyboard and prints their sum. Look up how to read from the keyboard in your language of choice.
 
 ## [Next (loops)](./loops.md)
 

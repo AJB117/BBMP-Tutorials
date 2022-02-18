@@ -1,5 +1,7 @@
 # 1 - Anatomy of a program
 
+## Syntax
+
 What does a program usually look like?
 
 Typically, a program is just a bunch of **data structures** being acted on by a bunch of **functions**. A data structure is just something that holds data, and a function is a procedure that takes input, processes the input, and produces some output. Every program can be thought of as a composition of some functions.
@@ -21,6 +23,20 @@ Below are some common syntactical trends in programming languages. You may not u
 | `=` | Assignment |
 | `=>` or `->` | Anonymous function |
 | `blah.thing` | Class/instance member |
+
+## Operators
+
+I wasn't sure where to put this section, but I think it fits here. In nearly all languages, there are some basic operators that are useful for everyone. An **operator** is just a symbol used for performing a certain action between some other symbols in the language.
+
+| Operator | What it does |
+| ----------- | ----------- |
+| `+, -, *, /`      | Addition, subtraction, multiplication, division|
+| `%` | Modulo (remainder, e.g. 4 % 5 = 1) |
+| `++`   | Increment (not in Python) |
+| `+=, -=, *=, /=, %=` | Execute operator and then assign (e.g. `a += 4` means add 4 to `a`) |
+| `&&, ||` | Logical [AND](https://en.wikipedia.org/wiki/Logical_conjunction), logical [OR](https://en.wikipedia.org/wiki/Logical_disjunction) (in Python, it's `and` and `or`)|
+| `>`, `<` | Greater than, less than|
+| `!` | Logical negation (converts true to false and vice versa) |
 
 ## [Next (variables)](./variables.md)
 
