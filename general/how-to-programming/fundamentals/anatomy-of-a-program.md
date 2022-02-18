@@ -41,15 +41,3 @@ I wasn't sure where to put this section, but I think it fits here. In nearly all
 | `==` | Is equal to | `a == b`|
 
 ## [Next (variables)](./variables.md)
-
----
-
-1. [Anatomy of a program](./fundamentals/anatomy-of-a-program.md)
-2. [Variables](./fundamentals/variables.md)
-3. [Functions](./fundamentals/functions.md)
-4. [Loops](./fundamentals/loops.md)
-5. [Control flow](./fundamentals/control-flow.md)
-6. [Essential data structures](./fundamentals/ds.md)
-7. [Sharing code](./fundamentals/sharing-code.md)
-8. [Classes](./fundamentals/classes.md)
-9. [More functions](./fundamentals/more-functions.md)

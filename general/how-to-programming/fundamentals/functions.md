@@ -106,15 +106,3 @@ This program will log `undefined`, and you'll probably see bad behavior using th
 2. Write a calculator that takes 2 numbers from the keyboard and prints their sum. Look up how to read from the keyboard in your language of choice.
 
 ## [Next (loops)](./loops.md)
-
----
-
-1. [Anatomy of a program](./fundamentals/anatomy-of-a-program.md)
-2. [Variables](./fundamentals/variables.md)
-3. [Functions](./fundamentals/functions.md)
-4. [Loops](./fundamentals/loops.md)
-5. [Control flow](./fundamentals/control-flow.md)
-6. [Essential data structures](./fundamentals/ds.md)
-7. [Sharing code](./fundamentals/sharing-code.md)
-8. [Classes](./fundamentals/classes.md)
-9. [More functions](./fundamentals/more-functions.md)

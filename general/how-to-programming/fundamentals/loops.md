@@ -103,6 +103,21 @@ Notice we have to keep updating the `disasterHasStruck` variable in each example
 
 Interestingly, it turns out it's impossible to write a program that can tell you whether an arbitrary (key word) program will terminate or loop forever ([the halting problem](https://en.wikipedia.org/wiki/Halting_problem)).
 
+## Continue and break
+
+If you want to, for some reason, skip through an iteration of a loop or completely exit a loop, use the `continue` and `break` keywords. In Python,
+
+```python
+for i in range(10):
+    if i % 2 == 0:
+        break       # we exit the whole loop when i is even
+
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)        # print only the odd numbers
+```
+
 ## A Python point
 
 Notice we have to keep updating `disasterHasStruck` to see whether the while loop can terminate. In Python, there's a handy thing called the [walrus operator](https://realpython.com/python-walrus-operator/) that eliminates the need to initialize disasterHasStruck and keep updating it. Can you update `walrus.py` in this directory using the walrus operator?
@@ -110,17 +125,4 @@ Notice we have to keep updating `disasterHasStruck` to see whether the while loo
 ## Exercises
 
 1. It is known that, in at least the languages above, any for loop can be rewritten as a while loop. Write a program using a for loop that takes a user inputted number `n`, and prints the cube of that number `n` times. Then, rewrite it using a while loop.
-
-## [Next (control flow)](./control-flow.md)
-
----
-
-1. [Anatomy of a program](./fundamentals/anatomy-of-a-program.md)
-2. [Variables](./fundamentals/variables.md)
-3. [Functions](./fundamentals/functions.md)
-4. [Loops](./fundamentals/loops.md)
-5. [Control flow](./fundamentals/control-flow.md)
-6. [Essential data structures](./fundamentals/ds.md)
-7. [Sharing code](./fundamentals/sharing-code.md)
-8. [Classes](./fundamentals/classes.md)
-9. [More functions](./fundamentals/more-functions.md)
+2. Write a function that calculates the nth Fibonacci number.

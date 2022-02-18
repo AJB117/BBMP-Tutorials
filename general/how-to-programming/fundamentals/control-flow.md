@@ -120,6 +120,39 @@ function divide(a, b) {
 
 The `else` was redundant, and now our code looks much prettier. Similarly, you don't technically need the `else` statements in the `mystery` examples.
 
+## Ternary operators
+
+Sometimes, it's cumbersome to write if and else and all that junk. When checking for short conditions, it's often pithier to use a **ternary operator**.
+
+### Python
+
+```python
+four_is_bigger = 4 < 5
+b = 1 if four_is_bigger else 0
+```
+
+Here, instead of breaking out an if/else block, we set the value of `b` in one line. Since `four_is_bigger` is `True`, then `b` takes on the value 1. If it were not, then `b` would be 0.
+
+### JavaScript
+
+```js
+const four_is_bigger = 4 < 5;
+const b = four_is_bigger ? 1 : 0;
+```
+
+JavaScript is different. The condition comes before the first value this time, but the logic is the same. `b` will be 1.
+
+### Dart
+
+```dart
+void main() {
+    bool four_is_bigger = 4 < 5;
+    bool b = four_is_bigger ? 1 : 0;
+}
+```
+
+The Dart implementation is basically the same as that of JS.
+
 ## Tips
 
 Sometimes, you'll find yourself making a lot of nested checks. For example, in Python
@@ -144,26 +177,11 @@ return True
 
 Sometimes, it's much cleaner to check for fail/escape cases and then exiting the function before carrying on with the rest of your program. This keeps your code flat, reducing nesting, and makes it much easier to reason about (and read). These checks for fail cases are called [guard clauses](https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html).
 
-Another tip is that the order of `if` and `else if` matters. You'll see this in the exercises.
+Another tip is that the order of conditions in your `if` and `else if` statements matters. You'll see this in the exercises.
 
 ## Exercises
 
 1. Solve [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) (you can write it yourself or use Leetcode's boilerplate).
 2. Write a program that determines whether integers `a`, `b` are [coprime](https://en.wikipedia.org/wiki/Coprime_integers). Be sure to use loops.
-
-
-## [Next (Essential data structures)](./ds.md)
-
----
-
-1. [Anatomy of a program](./fundamentals/anatomy-of-a-program.md)
-2. [Variables](./fundamentals/variables.md)
-3. [Functions](./fundamentals/functions.md)
-4. [Loops](./fundamentals/loops.md)
-5. [Control flow](./fundamentals/control-flow.md)
-6. [Essential data structures](./fundamentals/ds.md)
-7. [Sharing code](./fundamentals/sharing-code.md)
-8. [Classes](./fundamentals/classes.md)
-9. [More functions](./fundamentals/more-functions.md)
 
 <a name="myfootnote1">1</a>: However, there are [zero divisors](https://en.wikipedia.org/wiki/Zero_divisor#:~:text=In%20abstract%20algebra%2C%20an%20element,to%20ax%20is%20not%20injective.&text=An%20element%20that%20is%20a,simply%20called%20a%20zero%20divisor.) in certain [rings](https://en.wikipedia.org/wiki/Ring_(mathematics)). If you're interested in cryptography, it'd be useful to get to know some abstract algebra.
