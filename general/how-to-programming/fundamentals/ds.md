@@ -4,7 +4,7 @@
 
 ## Purpose
 
-I mentioned programming is about data and acting on that data. Well, there's more to data than just variables. A **data structure** is any structure that holds data. Certain data structures have better properties than others, e.g. better faster access time, faster insertion time, etc. Data structures are not hardware constructions; they are abstract implemented by other programs. A big part of computer science is designing data structures that are efficient.
+I mentioned programming is about data and acting on that data. Well, there's more to data than just variables. A **data structure** is any structure that holds data. Certain data structures have better properties than others, e.g. better faster access time, faster insertion time, etc. Data structures are not hardware constructions; they are abstract, implemented by other programs. A big part of computer science is designing data structures that are efficient.
 
 ## Arrays/Lists
 
