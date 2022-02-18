@@ -19,6 +19,7 @@ Below are some example data types that most languages have, and what they repres
 | ----------- | ----------- |
 | `int`      | Whole number (integer) |
 | `float` | Floating point number (decimal number) |
+| `double` | Higher precision float |
 | `bool`   | True/false |
 | `char` | Character (e.g. 'c') |
 | `string` | String (a bunch of characters, e.g. "Hello!") |

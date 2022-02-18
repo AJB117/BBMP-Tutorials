@@ -28,15 +28,17 @@ Below are some common syntactical trends in programming languages. You may not u
 
 I wasn't sure where to put this section, but I think it fits here. In nearly all languages, there are some basic operators that are useful for everyone. An **operator** is just a symbol used for performing a certain action between some other symbols in the language.
 
-| Operator | What it does |
-| ----------- | ----------- |
-| `+, -, *, /`      | Addition, subtraction, multiplication, division|
-| `%` | Modulo (remainder, e.g. 4 % 5 = 1) |
-| `++`   | Increment (not in Python) |
-| `+=, -=, *=, /=, %=` | Execute operator and then assign (e.g. `a += 4` means add 4 to `a`) |
-| `&&, ||` | Logical [AND](https://en.wikipedia.org/wiki/Logical_conjunction), logical [OR](https://en.wikipedia.org/wiki/Logical_disjunction) (in Python, it's `and` and `or`)|
-| `>`, `<` | Greater than, less than|
-| `!` | Logical negation (converts true to false and vice versa) |
+| Operator | What it does | How to use it|
+| ----------- | ----------- |--- |
+| `+, -, *, /`      | Addition, subtraction, multiplication, division| `a _ b` where `_` is just one of the ops |
+| `%` | Modulo (remainder, e.g. 4 % 5 = 1) | `a % b` |
+| `++`   | Increment (not in Python) | `a++` |
+| `+=, -=, *=, /=, %=` | Execute operator and then assign (e.g. `a += 4` means add 4 to `a`) | `a _= b` where `_` is just one of the ops
+| `&&, ||` | Logical [AND](https://en.wikipedia.org/wiki/Logical_conjunction), logical [OR](https://en.wikipedia.org/wiki/Logical_disjunction) (in Python, it's `and` and `or`)| `a && b`, `a || b` |
+| `>`, `<` | Greater than, less than| `a > b`, `a < b` |
+| `!` | Logical negation (converts true to false and vice versa) | `!a` |
+| `!=` | Is not equal to | `a != b` |
+| `==` | Is equal to | `a == b`|
 
 ## [Next (variables)](./variables.md)
 
