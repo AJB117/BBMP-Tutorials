@@ -151,7 +151,6 @@ Another tip is that the order of `if` and `else if` matters. You'll see this in 
 1. Solve [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) (you can write it yourself or use Leetcode's boilerplate).
 2. Write a program that determines whether integers `a`, `b` are [coprime](https://en.wikipedia.org/wiki/Coprime_integers). Be sure to use loops.
 
-<a name="myfootnote1">1</a>: However, there are [zero divisors](https://en.wikipedia.org/wiki/Zero_divisor#:~:text=In%20abstract%20algebra%2C%20an%20element,to%20ax%20is%20not%20injective.&text=An%20element%20that%20is%20a,simply%20called%20a%20zero%20divisor.) in certain [rings](https://en.wikipedia.org/wiki/Ring_(mathematics)). If you're interested in cryptography, it'd be useful to get to know some abstract algebra.
 
 ## [Next (Essential data structures)](./ds.md)
 
@@ -166,3 +165,5 @@ Another tip is that the order of `if` and `else if` matters. You'll see this in 
 7. [Sharing code](./fundamentals/sharing-code.md)
 8. [Classes](./fundamentals/classes.md)
 9. [More functions](./fundamentals/more-functions.md)
+
+<a name="myfootnote1">1</a>: However, there are [zero divisors](https://en.wikipedia.org/wiki/Zero_divisor#:~:text=In%20abstract%20algebra%2C%20an%20element,to%20ax%20is%20not%20injective.&text=An%20element%20that%20is%20a,simply%20called%20a%20zero%20divisor.) in certain [rings](https://en.wikipedia.org/wiki/Ring_(mathematics)). If you're interested in cryptography, it'd be useful to get to know some abstract algebra.
