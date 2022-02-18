@@ -40,8 +40,6 @@ print(get_evens(arr))
 
 Notice that in Python, we initialize a list using square brackets, and we use `.append` to add a value to the end of the list. See docs [here](https://docs.python.org/3/tutorial/datastructures.html) for more things you can do with a list.
 
-Run with `python3 variables-1.py` in the directory you wrote `variables-1.py`.
-
 ### JavaScript
 
 ```javascript
