@@ -61,9 +61,13 @@ console.log(getEvens(arr));
 As you might expect by now, JavaScript's version is quite verbose. Let's break it down.
 
 `const evens = [];` We initialize an array to which we'll add even numbers.
+
 `for ...` We loop over the array given to `getEvens`.
+
 `const value = arr[i];` We call the `i`th value of the input array `value`.
+
 `if (value % 2 == 0)` We check for evenness.
+
 `evens.push(value)` We add `value` to our list of evens.
 
 You can find more stuff to do with an array in JS [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
