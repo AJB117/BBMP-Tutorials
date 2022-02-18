@@ -126,3 +126,5 @@ Notice we have to keep updating `disasterHasStruck` to see whether the while loo
 
 1. It is known that, in at least the languages above, any for loop can be rewritten as a while loop. Write a program using a for loop that takes a user inputted number `n`, and prints the cube of that number `n` times. Then, rewrite it using a while loop.
 2. Write a function that calculates the nth Fibonacci number.
+
+## [Next (control flow)](./control-flow.md)

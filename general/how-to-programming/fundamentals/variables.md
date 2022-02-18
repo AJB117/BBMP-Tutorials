@@ -125,15 +125,3 @@ Python has no such modifier keyword. In fact, it has no modifier keywords.
 There are other modifier keywords, especially in Dart, but you can go research them yourself. Just know they exist and when they might be good to use.
 
 ## [Next (functions)](./functions.md)
-
----
-
-1. [Anatomy of a program](./fundamentals/anatomy-of-a-program.md)
-2. [Variables](./fundamentals/variables.md)
-3. [Functions](./fundamentals/functions.md)
-4. [Loops](./fundamentals/loops.md)
-5. [Control flow](./fundamentals/control-flow.md)
-6. [Essential data structures](./fundamentals/ds.md)
-7. [Sharing code](./fundamentals/sharing-code.md)
-8. [Classes](./fundamentals/classes.md)
-9. [More functions](./fundamentals/more-functions.md)
