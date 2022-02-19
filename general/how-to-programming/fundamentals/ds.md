@@ -177,7 +177,7 @@ You've probably found the general strategy of iterating over every item in a seq
 ## Exercises
 
 1. Rewrite your Fibonacci program, except using arrays/lists. While it won't make your program any more memory efficient, it employs [memoization](https://en.wikipedia.org/wiki/Memoization), which is useful for more complicated problems.
-2. Given a string, count the occurrence of each character in the string and print that count. Don't use the code we've written in the hash tables section; use arrays. Recall ASCII (hint: an array/list can be thought of as a special case of a hash table).
+2. Given a string, count the occurrence of each character in the string and print that count. Don't use the code we've written in the hash tables section; use arrays/lists. Recall ASCII (hint: an array/list can be thought of as a special case of a hash table).
 3. Solve [Two Sum](https://leetcode.com/problems/two-sum/) using a hash table (hint: subtraction is your friend).
 
 ## [Next (sharing code)](./sharing-code.md)
