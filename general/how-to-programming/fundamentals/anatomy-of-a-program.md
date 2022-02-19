@@ -12,7 +12,7 @@ The rules governing how a programming language is written is called **syntax**. 
 
 As we learn to program, keep in mind the syntax being used. Instead of copying and pasting the examples in these tutorials, try to copy the examples by hand. It will help build muscle memory in writing syntactically correct programs.
 
-Below are some common syntactical trends in programming languages. You may not understand all the terms, but it should be useful after you finish the general tutorial as.
+Below are some common syntactical trends in programming languages. You may not understand all the terms, but it should be useful once you've covered everything in the general tutorial.
 
 | Syntactical pattern      | What it does |
 | ----------- | ----------- |
