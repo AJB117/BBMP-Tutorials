@@ -162,6 +162,7 @@ if check_A:
     if check_B:
         # do some stuff
         return True
+    return True
 else:
     return False
 ```
