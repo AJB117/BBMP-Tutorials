@@ -177,7 +177,7 @@ return True
 
 Sometimes, it's much cleaner to check for fail/escape cases and then exiting the function before carrying on with the rest of your program. This keeps your code flat, reducing nesting, and makes it much easier to reason about (and read). These checks for fail cases are called [guard clauses](https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html).
 
-Another tip is that the order of conditions in your `if` and `else if` statements matters. You'll see this in the exercises.
+Another tip is that the order of conditions in your `if` and `else if` statements matters, particularly when their conditions are not mutually exclusive. That is, be aware of how you order your conditions if multiple conditions can be true at the same time. You'll see why this is important in the exercises.
 
 ## Exercises
 
