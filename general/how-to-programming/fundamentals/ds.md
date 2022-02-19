@@ -172,6 +172,8 @@ In the `else` block, we write `counts[word] = counts[word]! + 1` because Dart ty
 
 You would be right to think that this is risky practice, and it is. Avoid this as much as possible. There are more "Darty" ways of writing such this program.
 
+You've probably found the general strategy of iterating over every item in a sequence while updating some variable is a bit tedious and quite verbose, especially in JavaScript and Dart. In a later section, you'll find more terse, efficient ways of doing this.
+
 ## Exercises
 
 1. Rewrite your Fibonacci program, except using arrays/lists. While it won't make your program any more memory efficient, it employs [memoization](https://en.wikipedia.org/wiki/Memoization), which is useful for more complicated problems.
