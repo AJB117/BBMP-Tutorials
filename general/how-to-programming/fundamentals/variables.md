@@ -11,7 +11,9 @@ If a program is just a bunch of procedures acting on data, we'd better have a wa
 
 Every variable has a **type** according to what kind of data it can hold. A **type system** is a hierarchy of types that governs which types are sub-types of others. While Python and JavaScript are what are called [dynamically typed languages](https://en.wikipedia.org/wiki/Dynamic_programming_language), they still use a type system under the hood. Dart, on the other hand, is a statically typed language.
 
-The difference is that, in a dynamically typed language, data types of variables can be evaluated while the program is running, and programmers need not specify what type each variable is while writing their program. A statically typed language is the opposite; loosely speaking, data types must be specified at the time of writing the program.
+The difference is that, in a dynamically typed language, data types of variables can be determined while the program is running, and programmers need not specify what type each variable is while writing their program. A statically typed language is the opposite; loosely speaking, data types must be specified at the time of writing the program.
+
+Why is there this distinction? Typically, it's easier to write quick and dirty programs in a dynamically typed language than a statically typed one. However, programs written in statically typed languages are often faster due to optimizations that can only be made assuming that the type of a variable is known at compile-time.
 
 Below are some example data types that most languages have, and what they represent. It should be noted, however, that not all languages have these types. Fortunately, Python, JavaScript, and Dart have a lot of overlap in what types data can be.
 
