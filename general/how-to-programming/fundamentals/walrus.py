@@ -7,7 +7,7 @@ def disaster_report():
 def keep_living():
     print('nothing to see here...')
 
-# update the code below so you don't need line 11 and 14
+# update the code below using the walrus operator so you don't need line 11 and 14
 disaster_has_struck = disaster_report()
 while not disaster_has_struck:
     keep_living()
