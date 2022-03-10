@@ -93,7 +93,7 @@ void main() {
 }
 ```
 
-Pretty much universally, the `this` keyword represents the current instance variable. Think of a class as a blueprint that gives structure to a blob of data. When you **instantiate** a class, like in `ToDoItem todo = ToDoItem(...)`, then we say `todo` is an **instance** of the class `ToDoItem`. The `this` keyword, within `todo`, refers to itself. Note that this means every instance of every class has a different piece of memory pointed to by `this`.
+Pretty much universally, the `this` keyword represents the current instance variable. Think of a class as a blueprint that gives structure to a blob of data. When you **instantiate** a class, like in `ToDoItem todo = ToDoItem(...)`, then we say `todo` is an **instance** of the class `ToDoItem`. The `this` keyword, within `todo`, refers to itself. Note that this means every instance of every class has a different piece of memory pointed to by `this`. We also call instances **objects** in most circumstances.
 
 Now in other languages.
 
@@ -162,12 +162,15 @@ console.log(todo.getTagsStartingWithE())
 
 JavaScript takes a more traditional approach to constructors with a clearly defined method called `constructor`.
 
-## Overview
-
 Classes are an extremely rich subject. It would be good to read up on as much as you can on classes and any other related concepts in your language of choice.
 
 - [Python](https://docs.python.org/3/tutorial/classes.html)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [Dart](https://dart.dev/guides/language/language-tour#classes)
+
+## Exercises
+
+1. Model a game of tic-tac-toe using classes. You don't need to make a working game (although that's the best way to learn!), but you should get used to thinking in terms of classes and objects.
+2. Look up **inheritance** for your programming language of choice. Implement an example. Also read up on **composition**, especially if you're into JavaScript. Generally speaking, most developers prefer to work with composition over inheritance. How come?
 
 ## [Next (more functions)](./more-functions.md)
