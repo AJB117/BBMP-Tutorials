@@ -20,7 +20,7 @@ All three of these are "multi-paradigm". That means they do their best to incorp
 
 ## Installation
 
-Regardless what kind of development you're interested in, I highly recommend learning at least Python and JavaScript due to their omnipresence. Dart is more framework specific (Flutter), so it's not very generalizable. However, it feels a lot like more popular languages like Java or Kotlin, so learning those languages will probably benefit you more than Dart. The reason these tutorials cover Dart is because they teach how to write apps in Flutter.
+Regardless what kind of development you're interested in, I highly recommend learning at least Python and JavaScript due to their omnipresence. Dart is more framework specific (Flutter), so it's not very generalizable. It feels a lot like more popular languages like Java or Kotlin, so learning those languages will probably benefit you more than Dart. The reason these tutorials cover Dart is because they teach how to write apps in Flutter.
 
 ### Python (backend dev, ml dev)
 
