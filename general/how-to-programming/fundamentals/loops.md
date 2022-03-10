@@ -30,7 +30,9 @@ for (let i = 0; i < 10; i++) {
 For loops in JavaScript are more wordy. Let's break it down.
 
 `let i = 0;`: this initializes a loop counter variable to 0.
-`i < 10;`: this is the condition on which the loop will stop. That is, the loop will halt when `i` >= 10.
+
+`i < 10;`: this is the condition on which the loop will continue. That is, the loop will halt when `i` >= 10.
+
 `i++`: this increments `i` by 1.
 
 Until `i` is greater than or equal to 10, the code in the curly braces will keep running, and `i` will keep incrementing.
