@@ -24,7 +24,7 @@ This is much nicer than the array approach; now we can declare a variable like `
 
 Notice that the `ToDoItem`'s `dueDate` **property** is of type **Date**. A nice feature of classes is that, in most languages, you can nest them however deep you want. You can have classes with properties that are also classes.
 
-I mentioned earlier that classes encapsulate data and behavior. The above example shows how it captures data, but what about behavior, i.e., functions? Suppose we want every to-do item to be able to return a list of tags starting with the letter "e". We do it like so:
+I mentioned earlier that classes encapsulate data and behavior. The above example shows how it captures data, but what about behavior, i.e. functions? Suppose we want every to-do item to be able to return a list of tags starting with the letter "e". We do it like so:
 
 ```dart
 class ToDoItem {
