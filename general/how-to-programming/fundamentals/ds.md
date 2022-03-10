@@ -114,7 +114,7 @@ for word in string.split(' '):
 print(counts)
 ```
 
-Python uses [dictionaries](https://realpython.com/python-dicts/), but the principle is the same: key-value pairs.
+Python uses [dictionaries](https://realpython.com/python-dicts/), but the principle is the same: it's a way to store key-value pairs.
 
 `counts = {}` We initialize a dictionary called `counts`.
 
