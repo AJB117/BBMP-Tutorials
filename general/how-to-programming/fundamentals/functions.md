@@ -62,7 +62,7 @@ Declaring functions is more tricky in Dart. Since functions must have a type, th
 
 ## Scope
 
-**Scope** refers to the variables and data that a function or code block is allowed to manipulate. Functions have their own separate scope from all other code blocks, functions, and programs. This means variables defined in the argument list of a function and in a function body are totally independent of the variables used anywhere else. Using JavaScript as an example,
+**Scope** refers to the variables and data that a function or code block is allowed to manipulate. Functions have their own separate scope from all other code blocks, functions, and programs. This means variables defined in the argument list of a function and in a function body are totally independent of the variables used anywhere else (this isn't entirely true; we'll come back to this when talking about closures). Using JavaScript as an example,
 
 ```js
 function multiply(a, b) {
