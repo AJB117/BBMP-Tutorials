@@ -2,7 +2,7 @@
 
 Programming is the art of telling a computer what to do. Computers are very literal; they do what they are told to the dot, and they have no common sense. This makes programming them a challenge.
 
-While some presentations of programming make programming look like magic, it really isn't. A simple way of thinking about programming is that it's all about taking data from one part of the computer to another. It's all 1s and 0s at the end of the day. Good code moves data efficiently and does exactly what its intended to do while making sense. Bad code moves data inefficiently and shatters some dishware in the process.
+While some presentations of programming make programming look like magic, it really isn't. A simple way of thinking about programming is that it's all about taking data from one part of the computer to another. It's all 1s and 0s at the end of the day. Good code moves data efficiently and does exactly what its intended to do while making sense. Bad code moves data inefficiently and is difficult to understand.
 
 Programming is a very collaborative yet independent process. It is collaborative because you'll be using other people's code all the time. It is independent because you'll be responsible for nearly everything your code does, and the problem-solving process involves a lot of self-teaching. Programming has a very low barrier to entry; you don't need any fancy equipment or the latest lab materials to do good work. This plays a powerful role in creating the DIY culture programming communities are known for.
 
