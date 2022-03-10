@@ -16,7 +16,7 @@ You'll often hear people say that your choice of first language to learn is not 
 - JavaScript
 - Dart
 
-All three of these are "multi-paradigm". That means they do their best to incorporate conventions from other programming languages into their style.
+All three of these are "multi-paradigm". That means they do their best to incorporate conventions from many styles.
 
 ## Installation
 
