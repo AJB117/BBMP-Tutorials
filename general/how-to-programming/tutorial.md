@@ -62,6 +62,5 @@ There are some programming fundamentals we should cover before delving deeper in
 4. [Loops](./fundamentals/loops.md)
 5. [Control flow](./fundamentals/control-flow.md)
 6. [Essential data structures](./fundamentals/ds.md)
-7. [Sharing code](./fundamentals/sharing-code.md)
-8. [Classes](./fundamentals/classes.md)
-9. [More functions](./fundamentals/more-functions.md)
+7. [Classes](./fundamentals/classes.md)
+8. [More functions](./fundamentals/more-functions.md)
